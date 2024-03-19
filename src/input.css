@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    .btn{
+        @apply bg-green-500 mb-3 text-white font-bold border-gray-300 border-2  w-[70%] rounded-lg shadow-lg transition hover:scale-105 duration-500 shadow-black  lg:w-[80%] uppercase p-4 
+     }
+     .txt{
+        text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+        @apply mb-4 text-white text-xl; 
+    }
+}
